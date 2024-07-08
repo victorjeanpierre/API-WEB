@@ -11,7 +11,7 @@ class Conexion
     private $hostBd = 'localhost';
     private $nombreBd = 'apiweb';
     private $usuarioBd = 'root';
-    private $passwordBd = 'root';
+    private $passwordBd = '';
     private $pdo; // Propiedad para almacenar el objeto PDO
 
     public function __construct()
